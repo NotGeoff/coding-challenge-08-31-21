@@ -34,7 +34,8 @@
                     // Since the action in this case is to do nothing, I have excluded the default case.
                 }
             }
-            //If there no are no remaining opening brackets to be matched to a closing bracket, then the string is valid.
+            //The entire string has been processed.
+            //If there are no remaining opening brackets to be matched to a closing bracket, then the string is valid.
             //If there are remaining opening brackets to be matched to a closing bracket, then the string is not valid.
             return unmatchedBrackets == 0;
         }
