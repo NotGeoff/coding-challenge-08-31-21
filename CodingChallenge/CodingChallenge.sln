@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge", "CodingChallenge\CodingChallenge.csproj", "{6215292A-126C-4B2A-BDC0-75A4F743FD6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HasMatchingBracketsTests", "HasMatchingBracketsTests\HasMatchingBracketsTests.csproj", "{B1D17535-71C4-477B-AB3C-36E8A8369714}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6215292A-126C-4B2A-BDC0-75A4F743FD6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6215292A-126C-4B2A-BDC0-75A4F743FD6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6215292A-126C-4B2A-BDC0-75A4F743FD6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6215292A-126C-4B2A-BDC0-75A4F743FD6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D17535-71C4-477B-AB3C-36E8A8369714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D17535-71C4-477B-AB3C-36E8A8369714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D17535-71C4-477B-AB3C-36E8A8369714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D17535-71C4-477B-AB3C-36E8A8369714}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
