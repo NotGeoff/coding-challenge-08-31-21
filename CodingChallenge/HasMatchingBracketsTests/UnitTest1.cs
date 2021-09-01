@@ -5,6 +5,9 @@ namespace HasMatchingBracketsTests
 {
     public class HasMatchingBracketsUnitTests
     {
+        //Every test in here is one line, so labeling "Arrange", "Act", "Assert" for each part of the
+        //unit test is a little silly. Otherwise I would include such labels.
+        
         [Test]
         public void EmptyStringTest()
         {
@@ -59,8 +62,8 @@ namespace HasMatchingBracketsTests
         [TestCase("{abc...xyz}")]
         [TestCase("{a{b{c}d}e}")]
         [TestCase("{ { { } } }")]
-        [TestCase("abcdefghijklmnopqrstuvwxyz{#${(*{ ()()()(()}@!#$ ~} -----}++++    \r\n")]
-        [TestCase("{\n{\n{\n}\n}\n}\n")]
+        [TestCase("abcdefghijklmnopqrstuvwxyz\n{#${(*{ ()()()(()}@!#$ ~} -----}++++    \r\n")]
+        [TestCase("\n{\n{\n{\n}\n}\n}\n")]
         [Parallelizable(ParallelScope.All)]
         public void IgnoresNonBracketCharactersTest(string testString)
         {
